@@ -1,0 +1,55 @@
+site_name: LFADS Run Manager
+site_description: Documentation of LFADS Run Manager for Matlab
+site_author: Daniel J. O'Shea
+
+repo_name: 'lfads/lfads-run-manager'
+repo_url: 'https://github.com/lfads/lfads-run-manager'
+
+strict: true
+
+theme:
+  name: material
+  custom_dir: docs/theme/
+  feature:
+    tabs: true
+  palette:
+    primary: 'red'
+    accent: 'red'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/lfads'
+    - type: 'twitter'
+      link: 'https://twitter.com/djoshea'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - markdown.extensions.def_list
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - smarty
+  - toc:
+      permalink: true
+
+nav:
+  - LFADS Run Manager:
+    - Overview: index.md
+    - Installation: install.md
+    - Matlab Classes and Packages: matlab.md
+    - Key Concepts: concepts.md
+    - Interfacing with your Datasets : interfacing.md
+  - Training LFADS:
+    - Setting up a single-session run: single-session.md
+    - Running LFADS: running.md
+    - Hyperparameters: hyperparameters.md
+    - Multisession Stitched Models: multisession.md
+  - Analyzing LFADS:
+    - Analyzing LFADS Posterior Means: analysis.md
+    - Loading the Model Trained Parameters: trained-params.md
+  - More details:
+    - File Organization: files.md
+
+
+copyright: 'Copyright &copy; 2017 &mdash; <a href="http://djoshea.com">Daniel J. O&#39;Shea</a>'

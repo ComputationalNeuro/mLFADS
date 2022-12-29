@@ -1,0 +1,7 @@
+# Matlab autosave
+*~
+*.pyc
+site
+*.ipynb_checkpoints
+.DS_Store
+
